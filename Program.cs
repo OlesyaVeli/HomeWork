@@ -11,3 +11,16 @@
     }
 
     
+void ArrayNew(string[] arrayNew)
+{  
+    Console.WriteLine("Строки, длина которых меньше, либо равна 3:   "); 
+    for (int i = 0; i < n;  i++)
+    {
+        if(array[i].Length <= 3)
+        {
+            arrayNew[i] = array[i]; 
+            Console.WriteLine(arrayNew[i]); 
+        }      
+    }
+}
+ArrayNew(array);
